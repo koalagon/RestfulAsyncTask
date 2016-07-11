@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET 요청"
+                android:id="@+id/request_get" />
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POST 요청"
+                android:id="@+id/request_post" />
+
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PUT 요청"
+                android:id="@+id/request_put" />
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DELETE 요청"
+                android:id="@+id/request_delete" />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:height="150dp"
+                  android:id="@+id/response_text" />
+
+    </LinearLayout>
+</RelativeLayout>
